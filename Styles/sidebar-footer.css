@@ -1,0 +1,138 @@
+body {
+    background-color: #000;
+    font-family: var(--font-dm-sans);
+    max-height: 800px; /* Altura máxima da página */
+    overflow-y: auto
+}
+
+.sidebar {
+    position:fixed;
+    top: 0;
+    left: 0px;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar_navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px   0   0   16px;
+}
+
+.sidebarnavigation .logo {   /**caso precise, deu erro no alinhamento*/
+    background: #121212;
+    display:flex;
+    border-radius: 8px; 
+    padding: 16px   0   0   16px;
+} 
+
+.logo img { /**tamnaho da imagem da logo da search bar*/
+    width: 100px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li {
+    padding: 9px 0;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3; 
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.library {
+  background-color: #121212;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between; /*espaço entre as hotbars*/
+  flex-direction: column;
+  padding: 4px 8px;
+  color: #b3b3b3;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.library_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.library_button {
+  background-color: transparent;
+  border: none;
+  color: #b3b3b3;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.section-playlist {
+  background-color: #242424;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.section-playlist_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.section-playlist_button {
+  background-color: #fff;
+  color: #121212;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.cookies {
+  margin-top: 16px;
+}
+
+.cookies a {
+  color: #b3b3b3;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.languages {
+  margin-top: 9px;
+}
+
+.languages_button {
+  background-color: transparent;
+  border: 1px solid #878787;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
