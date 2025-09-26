@@ -1,14 +1,12 @@
 <div align="center">
   <h1> Spotify Web - (Front-end)</h1>
   
-  <img src="" alt="Spotify_Web" width="400">
+  <img src="src/Assets/image.png" alt="Spotify_Web" width="400">
   
-  <br><br>
-  
+  <br>
   <p><em>Este é um projeto que reproduz a interface do Spotify Web e implementa funcionalidades básicas usando HTML5, CSS3 e JavaScript. O objetivo é praticar layouts, animações e a integração com uma API simples.</em></p>
 </div>
 
----
 
 ## Stacks Usadas:
 
@@ -20,7 +18,6 @@
 
 </div>
 
----
 
 ## 📋 Sobre o Projeto
 
