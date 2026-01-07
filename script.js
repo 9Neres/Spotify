@@ -10,13 +10,17 @@ function requestApi(searchTerm) {
 }
 
 function displayResults(result) {
-    resultPlaylist.classList.add("hidden")
+    resultPlaylist.classList.add("hidden");
     const artistName = document.getElementById('artist-name');
     const artistImage = document.getElementById('artist-img');
 
     result.forEach(element => {
         artistName.innerText = element.name;
-        artistImage.src = element.urlImg;
+        if (element.urlImg) {
+            artistImage.src = element.urlImg;
+        } else {
+            artistImage.src = 'src/Assets/icons/default-image.png'; // Caminho para uma imagem padrão
+        }
     });
 
     resultArtist.classList.remove('hidden');

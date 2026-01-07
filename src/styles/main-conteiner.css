@@ -57,8 +57,10 @@
 }
 
 .header_search img{
-    width: 16px;
-    height: 16px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
     margin-left: 10px;
 }
 
@@ -224,7 +226,9 @@
     right: 0;
     bottom: 0;
     height: auto;
-    width: 107px;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
     transform: rotate(25deg) translate(18%, -2%);
 }
   
@@ -271,11 +275,10 @@
 }
   
 .artist-img {
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 50%;
 }
   
